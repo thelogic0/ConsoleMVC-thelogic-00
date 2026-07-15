@@ -13,5 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{3f1a2b3c-1111-4a11-9a11-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{3f1a2b3c-2222-4a22-9a22-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{3f1a2b3c-3333-4a33-9a33-000000000003}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Model\Sample.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\SampleRepository.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\SampleController.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ConsoleView.h">
+      <Filter>View</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Model\SampleRepository.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\SampleController.cpp">
+      <Filter>Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ConsoleView.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
